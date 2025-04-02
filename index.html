@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>formius.js</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="text-center p-3 bg-neutral-100">
-  <h1 class="text-3xl font-semibold mb-2">formius.js</h1>
-  <p>Coming soon. Stay tuned and stay chill. 😎</p>
-</body>
+<html lang="en" class="bg-[#0f0f11] text-white font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow">
+    <title>Formius</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5ESFVB9ST"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-R5ESFVB9ST');
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <script src="./tailwind.config.js"></script>
+    <script src="./script.js"></script>
+  </head>
+
+  <body class="min-h-screen flex items-center justify-center px-4">
+    <section class="text-center">
+      <div class="text-4xl animate-float mb-4">🚀</div>
+
+      <h1 class="text-5xl tracking-tight font-medium text-zinc-100 mb-6 pb-1">
+        Formius
+      </h1>
+
+      <p class="text-xl text-zinc-300 whitespace-nowrap overflow-hidden border-r border-white max-w-md mx-auto pr-2 inline-block animate-typing">
+        In the build pipeline... trust me, it slaps.
+      </p>
+
+      <p class="text-zinc-400 text-lg animate-fadeInUp animation-delay-[600ms] mb-9">
+        Don't wait for the README — follow for the drop.
+      </p>
+
+      <a
+        href="https://x.com/formiusjs"
+        target="_blank"
+        class="inline-block rounded-full text-white text-sm font-medium px-6 py-2 transition
+          bg-gradient-to-r from-[#ff6a00] via-[#fca311] to-[#ff6a00]
+          bg-[length:200%_auto] bg-[position:200%_center] animate-gradient-flow
+          active:scale-95 focus:ring-2 focus:ring-[#fca311]"
+        >
+          Follow us @formiusjs
+      </a>
+    </section>
+
+    <div class="fixed bottom-4 w-full text-xs font-mono text-zinc-500">
+      <div id="commit-container" class="overflow-hidden h-6 flex justify-center"></div>
+    </div>
+  </body>
 </html>

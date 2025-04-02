@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <style>
+    text {
+      font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+      font-size: 48px;
+    }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">🚀</text>
+</svg>
